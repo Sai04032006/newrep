@@ -11,7 +11,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.5.6</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>com.klu.cicd</groupId>
@@ -19,9 +19,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringBootProject</name>
     <description>Backend Project for FullStack</description>
-
-    <!-- ✅ Change packaging to WAR -->
-    <packaging>war</packaging>
 
     <properties>
         <java.version>21</java.version>
@@ -61,19 +58,9 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <!-- ✅ Tomcat provided for WAR deployment -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>
-        <!-- ✅ Set the final WAR name -->
-        <finalName>backend</finalName>
-
         <plugins>
             <!-- Spring Boot Maven Plugin -->
             <plugin>
