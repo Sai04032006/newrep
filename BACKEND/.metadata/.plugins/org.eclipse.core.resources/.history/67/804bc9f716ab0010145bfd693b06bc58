@@ -1,0 +1,5 @@
+package com.klu.cicd.repository;
+
+public interface UserRepository {
+
+}

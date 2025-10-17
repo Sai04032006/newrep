@@ -1,0 +1,5 @@
+package com.klu.cicd.service;
+
+public interface UserService {
+
+}

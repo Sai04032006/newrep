@@ -1,0 +1,5 @@
+package com.klu.cicd.controller;
+
+public class UserController {
+
+}
