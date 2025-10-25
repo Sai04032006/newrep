@@ -19,6 +19,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringBootProject</name>
     <description>Backend Project for FullStack</description>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>21</java.version>
@@ -61,6 +62,7 @@
     </dependencies>
 
     <build>
+    <finalName>backend</finalName>
         <plugins>
             <!-- Spring Boot Maven Plugin -->
             <plugin>
